@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="imc_calculator">Calculadora de IMC</string>
+    <string name="description_menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="imc_weight">Peso</string>
+    <string name="imc_height">Altura</string>
+    <string name="calculate">Calcular</string>
+    <string name="imc_string_1">Muito abaixo do peso.</string>
+    <string name="imc_string_2">Abaixo do peso.</string>
+    <string name="imc_string_3">Peso normal.</string>
+    <string name="imc_string_4">Acima do peso.</string>
+    <string name="imc_string_5">Obesidade I.</string>
+    <string name="imc_string_6">Obesidade II(severa).</string>
+    <string name="imc_string_7">Obesidade III(mórbida).</string>
+    <string name="imc">IMC</string>
+    <string name="imc_calculate_error">Houve um erro no cálculo do IMC.</string>
+    <string name="imc_calculate_empty">Os campos de peso e altura não podem estar vazios.</string>
+    <string name="clean">Limpar</string>
+    <string name="save">Salvar</string>
+    <string name="saved_screen">IMC Salvo</string>
+    <string name="delete">Deletar</string>
+    <string name="need_drink">Água diária: %s Litros</string>
+    <string name="mic">Microfone</string>
+</resources>
