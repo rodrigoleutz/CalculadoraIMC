@@ -38,6 +38,7 @@ import br.com.uware.calculadoraimc.utils.resultToMutableState
  * @param mainViewModel MainViewModel
  * @author Rodrigo Leutz
  * @version 1.0.0 - 2022 04 16 - Initial release.
+ * @version 1.0.1 - 2022 05 17 - Add check if less than 0 in weight and height.
  */
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
@@ -228,7 +229,8 @@ fun ImcScreen(mainViewModel: MainViewModel) {
                             expanded = !expanded
                         } else {
                             try {
-                                if (weight.value.isNotBlank() && height.value.isNotBlank()) {
+                                if (weight.value.isNotBlank() && weight.value.toFloat() > 0f &&
+                                    height.value.isNotBlank() && height.value.toFloat() > 0f) {
                                     result.value = ImcData(
                                         weight = weight.value.toFloat(),
                                         height = height.value.toFloat()

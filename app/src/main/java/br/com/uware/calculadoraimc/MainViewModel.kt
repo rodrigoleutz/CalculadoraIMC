@@ -58,7 +58,7 @@ class MainViewModel @Inject constructor(private val repository: ImcDataRepositor
     init {
         viewModelScope.launch(Dispatchers.IO) {
             repository.getAll().distinctUntilChanged().collect {
-                if (!it.isNullOrEmpty()) {
+                if (it.isNotEmpty()) {
                     _imcList.value = it
                 }
             }
@@ -113,7 +113,7 @@ class MainViewModel @Inject constructor(private val repository: ImcDataRepositor
 
     companion object {
         // TAG for log.
-        const val TAG = "MainViewModel"
+        private const val TAG = "MainViewModel"
     }
 
 }

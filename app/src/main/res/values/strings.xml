@@ -20,6 +20,6 @@
     <string name="save">Salvar</string>
     <string name="saved_screen">IMC Salvo</string>
     <string name="delete">Deletar</string>
-    <string name="need_drink">Água diária: %s Litros</string>
+    <string name="need_drink">Liquído diária: %s Litros</string>
     <string name="mic">Microfone</string>
 </resources>

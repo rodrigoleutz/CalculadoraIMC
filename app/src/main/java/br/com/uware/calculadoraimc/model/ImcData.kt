@@ -97,7 +97,7 @@ data class ImcData(
     /**
      * water
      * Calc for need drink water per day.
-     * @author Rodrigo Leutz
+     * @author Rodrigo Leutz and Cleverson Baron
      * @version 1.0.0 - 2022 04 16 - Initial release.
      */
     val water: Float

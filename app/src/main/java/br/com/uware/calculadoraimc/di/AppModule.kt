@@ -32,7 +32,7 @@ object AppModule {
     fun provideImcDao(imcDatabase: ImcDatabase): ImcDatabaseDao = imcDatabase.imcDatabaseDao()
 
     /**
-     * privideAppDatabase
+     * provideAppDatabase
      * Create a database.
      * @param context Context
      * @author Rodrigo Leutz
